@@ -3,40 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ADSO 2929061B</title>
+    <title>ADSO 2929061B</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1d3557, #457b9d);
+            color: #f1faee;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        main {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #f1faee;
+            margin-bottom: 10px;
+        }
+
+        header h1 span {
+            color: #e63946;
+        }
+
+        header h2 {
+            font-size: 1.2rem;
+            color: #a8dadc;
+            margin-bottom: 5px;
+        }
+
+        header h3 {
+            font-size: 1rem;
+            color: #f1faee;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        menu a {
+            background: #457b9d;
+            padding: 20px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #f1faee;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        menu a span {
+            font-size: 1.5rem;
+        }
+
+        menu a:hover {
+            background: #e63946;
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+        }
+    </style>
 </head>
 <body>
     <main>
         <header>
             <h1>ADSO 2929061 <span>B</span></h1>
-            <h2>software & Analysis Development</h2>
+            <h2>Software & Analysis Development</h2>
             <h3>Sebastian Ramirez Agudelo</h3>
         </header>
         <menu>
-            <a href="ejemplo1.html">
-                <span>01</span>
-            </a>
-            <a href="ejemplo.html">
-                <span>02</span>
-            </a>
-            <a href="ejm2.html">
-                <span>03</span>
-            </a>
-        </a>
-        <a href="ejem3.html">
-            <span>04</span>
-        </a>
-        <a href="pag-once.html">
-            <span>05</span>
-        </a>
-        <a href="formulario.html">
-            <span>06</span>
-        </a>
-        <a href="boostrap.html">
-            <span>07</span>
+            <a href="ejemplo1.html"><span>01</span></a>
+            <a href="ejemplo.html"><span>02</span></a>
+            <a href="ejm2.html"><span>03</span></a>
+            <a href="ejem3.html"><span>04</span></a>
+            <a href="pag-once.html"><span>05</span></a>
+            <a href="formulario.html"><span>06</span></a>
+            <a href="boostrap.html"><span>07</span></a>
         </menu>
     </main>
-   
-
 </body>
 </html>
